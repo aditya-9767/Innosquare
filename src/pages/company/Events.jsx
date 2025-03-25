@@ -16,7 +16,7 @@ import solution from '../../assets/event/solution.png';
 
 const allEvents = [
   { id: 1, date: "Apr 14", title: "InnoSquares at AI4 Las Vegas 2024", content: "Shaping the Future of AI!", image: dots, path: "/event1" },
-  { id: 2, date: "Aug 20", title: "Event 2", content: "Directly seated and inside for you to enjoy the show.", image: manrobot, path: "/event2" },
+  { id: 2, date: "Aug 20", title: "InnoSquares at World Summit AI 2024 - Amsterdam", content: "Directly seated and inside for you to enjoy the show.", image: manrobot, path: "/event2" },
   { id: 3, date: "Sep 18", title: "Event 3", content: "Directly seated and inside for you to enjoy the show.", image: diff, path: "/event3" },
   { id: 4, date: "Apr 14", title: "Event 4", content: "We'll get you directly seated and inside for you to enjoy the show.", image: robotic, path: "/event4" },
   { id: 5, date: "Aug 20", title: "Event 5", content: "Directly seated and inside for you to enjoy the show.", image: brain, path: "/event5" },

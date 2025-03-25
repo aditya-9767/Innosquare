@@ -3,14 +3,19 @@ import { getDatabase, ref, push, get, child, onValue } from "firebase/database";
 import { collection, getDocs } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCH6Z-pcbadbYj_f5pRC8Qz3pEwvKSaO70",
-  authDomain: "innosquare-575ee.firebaseapp.com",
-  databaseURL: "https://innosquare-575ee-default-rtdb.firebaseio.com",
-  projectId: "innosquare-575ee",
-  storageBucket: "innosquare-575ee.firebasestorage.app",
-  messagingSenderId: "824698500620",
-  appId: "1:824698500620:web:a7eab5ff84eb6b9bb5a029",
-  measurementId: "G-YG0G2P770H"
+  apiKey: "AIzaSyAtR2xels1YTJ_iaXg6295wyk02eOGC3uc",
+ 
+  authDomain: "mysite-51dd0.firebaseapp.com",
+ 
+  projectId: "mysite-51dd0",
+ 
+  storageBucket: "mysite-51dd0.firebasestorage.app",
+ 
+  messagingSenderId: "563038345885",
+ 
+  appId: "1:563038345885:web:cc2a2b62364597ed965274",
+ 
+  measurementId: "G-6RL1RZ0PMT"
 };
 
 // Initialize Firebase

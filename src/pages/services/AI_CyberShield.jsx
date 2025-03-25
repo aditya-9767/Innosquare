@@ -205,7 +205,7 @@ const AI_CyberShield = () => {
             Nebius AI Cloud – High-Performance Computing for AI Workloads    
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-center text-gray-600 mb-10 md:mb-16 leading-relaxed">
-            The backbone of AI innovation lies in robust, scalable, and efficient infrastructure. Our Nebius AI Cloud solutions ensure lightning-fast AI model training, deep learning, and inference capabilities.
+            The backbone of AI innovation lies in robust, scalable, and efficient infrastructure. Our <a href="https://nebius.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Nebius AI Cloud</a> solutions ensure lightning-fast AI model training, deep learning, and inference capabilities.
           </p>
  
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">

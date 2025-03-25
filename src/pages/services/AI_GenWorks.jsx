@@ -29,7 +29,7 @@ const AI_GenWorks = () => {
       title: "Domain Dataset Creation",
       items: [
         "🔹 STEM [Science, Technology, Engineering, Mathematics]",
-        "🔹 Software Coding [15+ Coding Languages]",
+        "🔹 Software Coding [16+ Coding Languages]",
         "🔹 Other Domains [Civil, Finance, Medical]"
       ]
     },

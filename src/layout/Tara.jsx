@@ -48,9 +48,9 @@ const TARA = () => {
               </div>
  
               {/* CTA Button */}
-              <div className="mt-4 sm:mt-6">
+              <div className="mt-4 sm:mt-6 flex justify-center">
                 <button
-                  className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-medium transition duration-300 flex items-center justify-center sm:justify-start gap-2"  
+                  className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-medium transition duration-300 flex items-center justify-center gap-2"  
                   onClick={() => navigate("/Contact")}
                 >
                   Get Started with TARA

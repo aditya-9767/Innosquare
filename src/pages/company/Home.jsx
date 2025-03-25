@@ -47,7 +47,7 @@ function Home() {
       <section className="py-16 md:py-24 bg-gradient-to-r from-blue-50 via-white to-blue-100 w-screen">
       <div className="w-full px-6 md:px-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-8">
-          AI GenWorks
+          Generative AI
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-8 md:space-y-10 order-2 md:order-1">
@@ -103,7 +103,7 @@ function Home() {
 <section className="py-16 md:py-24 bg-gradient-to-r from-blue-50 via-white to-blue-100 w-screen">
   <div className="cursor-pointer w-full px-6 md:px-10">
     <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-8">
-    Data DeepInsight
+    Data Analytics
 
     </h2>
     <h3 className="text-xl md:text-3xl text-center text-gray-900 mb-8 md:mb-16">
@@ -164,7 +164,7 @@ function Home() {
       <section className="py-16 md:py-24 bg-gradient-to-r from-blue-50 via-white to-blue-100 w-screen">
       <div className="cursor-pointer w-full px-6 md:px-10">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 md:mb-8">
-    AI CyberShield - Fortifying the Future with Intelligent Security
+      AI Infrastructure & Security - Fortifying the Future with Intelligent Security
     </h2>
     <h2 className="text-xl md:text-2xl text-center mb-10 md:mb-20">
             Empower your enterprise with next-gen AI-driven security and cloud resilience.

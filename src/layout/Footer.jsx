@@ -86,20 +86,20 @@ const Footer = () => {
                 onClick={() => navigate('/AI_GenWorks')}
                 className="text-left text-sm sm:text-base text-gray-300 hover:text-white transition-colors"
               >
-               AI GenWorks
+                 Genarative AI
               </button>
               <button
                 onClick={() => navigate('/Data_DeepInsights')}
                 className="text-left text-sm sm:text-base text-gray-300 hover:text-white transition-colors"
               >
-                Data DeepInsights
+                Data Analytics
               </button>
               <button
                 onClick={() => navigate('/AI_CyberShield')}
                 className="text-left text-sm sm:text-base text-gray-300 hover:text-white transition-colors"
               >
-               AI CyberShield
-              </button>
+              AI Infrastructure & Security
+            </button>
             </div>
           </div>
  

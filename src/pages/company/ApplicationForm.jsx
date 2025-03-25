@@ -6,10 +6,13 @@ import Footer from '../../layout/Footer';
 import Navbar from '../../layout/NavBar';
 
 // Add Web3Forms access key
-const WEB3FORMS_ACCESS_KEY = "c929ec26-e551-49f7-a0b5-0b73bddd252d"; // Replace with your actual Web3Forms access key
+const WEB3FORMS_ACCESS_KEY = "c929ec26-e551-49f7-a0b5-0b73bddd252d"; 
+
 
 const ApplicationForm = () => { 
   const { jobId } = useParams();
+
+
   const navigate = useNavigate();
   const [jobDetails, setJobDetails] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -190,7 +193,10 @@ const ApplicationForm = () => {
 
   return (
     <>
-      <Navbar />
+     
+
+     <Navbar/>
+
       <div className="bg-gray-100 min-h-screen py-4 sm:py-8">
         <div className="max-w-4xl mx-auto px-4">
           {formSubmitted ? (

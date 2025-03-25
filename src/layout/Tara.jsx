@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import { useNavigate } from "react-router-dom"; 
-
+import { useNavigate } from "react-router-dom";
+ 
 const TARA = () => {
   const navigate = useNavigate();
   return (
@@ -33,9 +34,22 @@ const TARA = () => {
                 </div>
               </div>
              
+              {/* Video Section */}
+              <div className="flex justify-center w-full">
+                <div className="w-[80%] aspect-video">
+                  <iframe
+                    className="w-full h-full rounded-lg shadow-lg"
+                    src="/src/assets/Tara Screen Recording.mp4"
+                    title="TARA Demo Video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+ 
               {/* CTA Button */}
               <div className="mt-4 sm:mt-6">
-                <button 
+                <button
                   className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-medium transition duration-300 flex items-center justify-center sm:justify-start gap-2"  
                   onClick={() => navigate("/Contact")}
                 >

@@ -14,7 +14,7 @@ import TARA from "../../layout/Tara";
 import { useNavigate } from "react-router-dom";
 const AI_GenWorks = () => {
   const navigate = useNavigate();
-
+ 
   const cardData = [
     {
       title: "Up-Scale Your AI Models",
@@ -60,7 +60,7 @@ const AI_GenWorks = () => {
       <NavBar />
  
       {/* Hero Section */}
-      <section className="bg-white py-12 md:py-20 lg:py-32 text-left relative overflow-hidden">
+      <section className="bg-white py-6 md:py-10 text-left relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-30 -z-10"></div>
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-16 gap-8">
           {/* Text Content */}
@@ -227,7 +227,7 @@ const AI_GenWorks = () => {
                     "Build AI models with structured data in core scientific and technical fields for advanced problem-solving.",
                 },
                 {
-                  title: "Software Coding (15+ Programming Languages)",
+                  title: "Software Coding (16+ Programming Languages)",
                   description:
                     "Train AI for code generation, debugging, and software development with datasets covering Python, Java, C++, Rust, and more.",
                 },

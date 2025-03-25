@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { FaBuilding, FaChartLine, FaCheckCircle, FaCode, FaDatabase, FaFlask, FaMedal, FaRobot } from "react-icons/fa";
  
 const features = [
-  { icon: <FaCode />, title: "15+ Coding Languages", desc: "Build AI models using Python, Java, C++, and more." },
-  { icon: <FaRobot />, title: "100+ AI-Powered Prompts", desc: "Unlock AI capabilities with high-quality prompts." },
-  { icon: <FaCheckCircle />, title: "QA Review Tool", desc: "Ensure AI output accuracy with our advanced review system." },
+  { icon: <FaCode />, title: "16+ Coding Languages", desc: "Build AI models using Python, Java, C++, and more." },
+  { icon: <FaRobot />, title: "100k+ AI-Powered Prompts delivered", desc: "Unlock AI capabilities with high-quality prompts." },
+  { icon: <FaCheckCircle />, title: "QA Review Tool | TARA", desc: "Ensure AI output accuracy with our advanced review system." },
   { icon: <FaBuilding />, title: "Agentic Real-Estate AI", desc: "Automate real estate management with AI-driven insights." },
   { icon: <FaFlask />, title: "STEM Experts", desc: "Collaborate with AI specialists in Science & Engineering." },
-  { icon: <FaChartLine />, title: "AI for Healthcare, Retail & FinTech", desc: "AI-powered solutions for industry transformation." },
+  { icon: <FaChartLine />, title: "AI for Healthcare & Telecom", desc: "AI-powered solutions for industry transformation." },
   { icon: <FaDatabase />, title: "Snowflake & Databricks Partners", desc: "Optimize cloud AI with our trusted data partnerships." },
   { icon: <FaMedal />, title: "60+ SnowPro Certified Engineers", desc: "Expert AI engineers with top industry certifications." },
 ];

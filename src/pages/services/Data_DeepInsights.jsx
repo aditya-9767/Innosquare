@@ -9,11 +9,11 @@ import Navbar from '../../layout/NavBar'
 import { FaSnowflake, FaDatabase, FaMicrosoft } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-
+ 
 const Data_DeepInsights = () => {
-
+ 
     const navigate = useNavigate();
-  
+ 
   const approaches = [
     {
       title: "Data Architecture & Platform Modernization Strategy",
@@ -71,7 +71,7 @@ const Data_DeepInsights = () => {
       icon: "💡"
     }
   ];
-
+ 
   return (
     <>
       <Navbar/>
@@ -80,7 +80,7 @@ const Data_DeepInsights = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-30 -z-10"></div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <h1 className="font-normal text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-neutral-900 font-future">
-            Data DeepInsights
+            AI Enabled Data Analytics
             <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-2">
               Unlock the Power of Enterprise Data
             </span>
@@ -96,19 +96,19 @@ const Data_DeepInsights = () => {
           </div>  
         </div>
       </section>
-
+ 
       {/* Why Data DeepInsights Section */}
       <section className="py-10 md:py-20 bg-gradient-to-r from-blue-50 via-white to-blue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 md:mb-12">
-            Why Data DeepInsights?
+            Why Data Analytics?
           </h2>
           <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 mb-10 md:mb-16 leading-relaxed">
             In today's data-driven world, businesses need real-time insights, scalable architectures, and AI-powered analytics to stay ahead. Our expertise in modern data platforms ensures that your data is not just stored but optimized, processed, and transformed into strategic value.
           </p>
         </div>
       </section>
-
+ 
       <section className="pb-10 md:pb-20 bg-gradient-to-r from-blue-50 via-white to-blue-100">
         <div className="max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 md:mb-12">
@@ -140,9 +140,9 @@ const Data_DeepInsights = () => {
        
             {/* Right Content - Only sticky on desktop */}
             <div className="flex items-start justify-start w-full md:sticky md:top-8 h-auto overflow-visible">
-              <motion.div 
-                initial={{ opacity: 0, scale: 0.8 }} 
-                animate={{ opacity: 1, scale: 1 }} 
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, ease: "easeOut" }}
                 className="w-full h-full"
               >
@@ -156,7 +156,7 @@ const Data_DeepInsights = () => {
           </div>
         </div>
       </section>
-
+ 
       {/* Business Impact Section */}
       <section className="py-10 md:py-16 bg-gradient-to-r from-blue-50 via-white to-blue-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
@@ -182,7 +182,7 @@ const Data_DeepInsights = () => {
           </div>
         </div>
       </section>
-
+ 
       {/* Technologies We Leverage Section */}
       <section className="py-10 md:py-20 bg-gradient-to-r from-blue-50 via-white to-blue-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center mb-8 md:mb-16">
@@ -190,11 +190,11 @@ const Data_DeepInsights = () => {
             Technologies We Leverage
           </h2>
         </div>
-
+ 
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
             {/* Snowflake Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-xl p-6 md:p-8 flex flex-col items-center text-center"
             >
@@ -208,9 +208,9 @@ const Data_DeepInsights = () => {
                 Fast, scalable, and cost-efficient cloud data warehousing
               </p>
             </motion.div>
-
+ 
             {/* Databricks Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-xl p-6 md:p-8 flex flex-col items-center text-center"
             >
@@ -224,9 +224,9 @@ const Data_DeepInsights = () => {
                 AI-powered analytics & collaborative data science
               </p>
             </motion.div>
-
+ 
             {/* Microsoft Fabric Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-xl p-6 md:p-8 flex flex-col items-center text-center sm:col-span-2 md:col-span-1"
             >
@@ -243,7 +243,7 @@ const Data_DeepInsights = () => {
           </div>
         </div>
       </section>
-      
+     
       <TARA/>
       <Contact/>
       <Marquee/>
@@ -252,5 +252,6 @@ const Data_DeepInsights = () => {
     </>
   )
 }
-
+ 
 export default Data_DeepInsights
+ 

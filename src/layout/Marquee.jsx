@@ -7,7 +7,7 @@ import NebiusLogo from "../assets/nebius.png";
 import SnowflakeLogo from "../assets/Snowflake_Logo.svg.png";
 import Splunk from "../assets/Splunk Logo.svg";
  
-const logos = [CiscoLogo, JuniperLogo, NebiusLogo, SnowflakeLogo,Splunk];
+const logos = [CiscoLogo,SnowflakeLogo,Splunk];
  
 const Marquee = () => {
   return (

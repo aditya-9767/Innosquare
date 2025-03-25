@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
 import React, { useState, useEffect, useRef } from 'react';
+import logo from "../assets/innosqures.png";
+
  
 const Navbar = () => {
   const [resourcesOpen, setResourcesOpen] = useState(false);
@@ -78,11 +80,18 @@ const Navbar = () => {
             className="text-2xl font-bold cursor-pointer"
             onClick={() => handleNavigation('/')}
           >
-            <img
+           { /* <img
               src="src/assets/innosqures.png"
               className="w-100 h-auto"
               alt="Logo"
             />
+            */}
+            <img
+            src={logo}
+             className="w-100 h-auto"
+             alt="Logo"
+/>
+                          
           </div>
  
           {/* Hamburger Menu for Mobile */}
@@ -108,19 +117,19 @@ const Navbar = () => {
                 onClick={() => handleNavigation('/AI_GenWorks')}
                 className="font-medium cursor-pointer hover:text-blue-500"
               >
-                AI GenWorks
+                Generative AI
               </a>
               <a
                 onClick={() => handleNavigation('/Data_DeepInsights')}
                 className="font-medium cursor-pointer hover:text-blue-500"
               >
-                Data DeepInsights
+                Data Analytics
               </a>
               <a
                 onClick={() => handleNavigation('/AI_CyberShield')}
                 className="font-medium cursor-pointer hover:text-blue-500"
               >
-                AI CyberShield
+                 AI Infrastructure & Security
               </a>
             </div>
             
@@ -223,19 +232,19 @@ const Navbar = () => {
                   onClick={() => handleNavigation('/AI_GenWorks')}
                   className="font-medium cursor-pointer hover:text-blue-500"
                 >
-                  AI GenWorks
+                  Generative AI
                 </a>
                 <a
                   onClick={() => handleNavigation('/Data_DeepInsights')}
                   className="font-medium cursor-pointer hover:text-blue-500"
                 >
-                  Data DeepInsights
+                  Data Analytics
                 </a>
                 <a
                   onClick={() => handleNavigation('/AI_CyberShield')}
                   className="font-medium cursor-pointer hover:text-blue-500"
                 >
-                  AI CyberShield
+                  AI Infrastructure & Security
                 </a>
               </div>
 
